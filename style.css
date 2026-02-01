@@ -1,5 +1,8 @@
 #root {
   color: rgb(24, 23, 23);
+   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 body {
@@ -7,12 +10,6 @@ body {
   margin: 20px;
   background-color: #f9f9f9;
   color: #333;
-}
-
-#root {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
 }
 
 
