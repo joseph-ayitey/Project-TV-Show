@@ -3,6 +3,7 @@ function setup() {
   const root = document.getElementById("root");
 
   const allEpisodes = getAllEpisodes();
+  
 
   allEpisodes.forEach((ep) => {
     const season = String(ep.season).padStart(2, "0");
